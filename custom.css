@@ -1,0 +1,29 @@
+
+
+
+/*custom tomato red background*/
+.red {
+  background-color: rgba(255, 69, 10, 0.72);
+}
+
+/* enlarge size of text and change color*/
+.navbar .navbar-brand {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.75rem;
+}
+
+/* change size of sub-heading */
+.lead {
+  font-size: 2rem;
+}
+
+/* set jumbotron's background image to Life Aquatic pic*/
+.jumbotron {
+  background-image: url('http://www.tvovermind.com/wp-content/uploads/2016/09/Bill-Murray.jpg');
+  background-size: cover;
+}
+
+/*custom tomato red text color*/
+.textRed {
+  color: rgba(255, 69, 10, 0.72);
+}
