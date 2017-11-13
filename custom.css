@@ -27,3 +27,7 @@
 .textRed {
   color: rgba(255, 69, 10, 0.72);
 }
+/* blurred text shadow around jumbotron text*/
+.guesswho {
+    text-shadow: 2px 2px 8px #ff0000;
+}
