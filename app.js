@@ -30,3 +30,28 @@ if(name_length < 1) {
 }
 }
 });
+
+// hide phone validation error message
+$(function() {
+  $("#phone_error_message").hide();
+
+
+var error_name = false;
+// run function to make sure there is text in phone field when clicking out
+$("#phone").focusout(function()
+{
+  check_phone();
+});
+
+// function to to check phone is entered
+function check_phone(){
+var phone_length = $("#phone").val().length;
+
+if(phone_length < 1) {
+  $("#phone_error_message").show();
+  error_name = true;
+} else {
+  $("#phone_error_message").hide();
+}
+}
+});
