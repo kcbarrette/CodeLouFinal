@@ -47,7 +47,7 @@ $("#phone").focusout(function()
 function check_phone(){
 var phone_length = $("#phone").val().length;
 
-if(phone_length < 1) {
+if(phone_length < 10) {
   $("#phone_error_message").show();
   error_name = true;
 } else {
